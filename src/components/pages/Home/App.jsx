@@ -26,7 +26,7 @@ function App() {
  
       <Header/>
 
-      <CarrouselCentral/>
+    <CarrouselCentral/>
 
 
 
@@ -48,7 +48,7 @@ function App() {
 
 
 
- </div>
+ </div> 
  </body>
  </div>
 

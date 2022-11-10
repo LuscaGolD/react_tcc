@@ -1,3 +1,9 @@
+import Mine from '../Home/img/mine.png'
+import Celeste from '../Home/img/celeste.png'
+import Lol from '../Home/img/lol.png'
+import balãozada from '../Home/img/bloons.png'
+
+
 function MaisJogados(){
     return(
            <div>
@@ -7,11 +13,11 @@ function MaisJogados(){
 
 
 <ul class="carrossel-slide">
-  <li class="gameRow--item img"><img src="./"/></li>
-  <li class="gameRow--item img"><img src="./jogo/mine.png"/></li>
-  <li class="gameRow--item img"><img src="./jogo/celeste.png"/></li>
-  <li class="gameRow--item img"><img src="./jogo/lol.png"/></li>
-  <li class="gameRow--item img"><img src="./jogo/balãozada.png"/></li>
+<li class="gameRow--item img"><img src={Mine}/></li>
+          <li class="gameRow--item img"><img src={Celeste}/></li>
+          <li class="gameRow--item img"><img src={Lol}/></li>
+          <li class="gameRow--item img"><img src={balãozada}/></li>
+  <li class="gameRow--item img"><img src={Lol}/></li>
 </ul>
 
 </div>
