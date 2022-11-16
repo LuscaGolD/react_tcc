@@ -1,139 +1,60 @@
-// const swiper = new Swiper(".mySwiper", {
-//   slidesPerView: 3,
-//   spaceBetween: 30,
-//   slidesPerGroup: 3,
-//   loop: true,
-//   loopFillGroupWithBlank: true,
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-// });
 
-function EmBreve(){
-    return(
-      <div>
-      <section>
+
+
+// import './Header.css';
+
+
+//   import 'swiper/css';
+//   import Swiper, { Navigation, Pagination } from 'swiper';
+
+//   import 'swiper/css/navigation';
+//   import 'swiper/css/pagination';
+
+// function EmBreve(){
+
+//   const swiper = new Swiper('.swiper', {
+//     // configure Swiper to use modules
+//     modules: [Navigation, Pagination],
     
-      <div class="swiper mySwiper container">
-        <div class="swiper-wrapper content">
-  
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="..//TelaInicial/img/csgo.jpg" alt=""/>
-              </div>
-            </div>
-          </div>
+//   });
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="..//TelaInicial/img/bloons-td-6-offer-1jl6n.jpg" alt=""/>
-              </div>
-            </div>
-          </div>
+ 
+//   return(
+//       <div>
+//       <section>
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>
-            </div>
-          </div>
+//       {/* // <!-- Slider main container --> */}
+// <div class="swiper">
+//   {/* <!-- Additional required wrapper --> */}
+//   <div class="swiper-wrapper">
+//     {/* <!-- Slides --> */}
+//     <div class="swiper-slide">Slide 1</div>
+//     <div class="swiper-slide">Slide 2</div>
+//     <div class="swiper-slide">Slide 3</div>
+//     ...
+//   </div>
+//   {/* <!-- If we need pagination --> */}
+//   <div class="swiper-pagination"></div>
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>  
-            </div>
-          </div>
+//   {/* <!-- If we need navigation buttons --> */}
+//   <div class="swiper-button-prev"></div>
+//   <div class="swiper-button-next"></div>
+// {/* 
+//   <!-- If we need scrollbar --> */}
+//   <div class="swiper-scrollbar"></div>
+// </div>
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>      
-            </div>
-          </div>
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>               
-            </div>
-          </div>
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>               
-            </div>
-          </div>
+//     </section>
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>               
-            </div>
-          </div>
+    
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>               
-            </div>
-          </div>
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>               
-            </div>
-          </div>
+//     </div>
+//     );
+// }
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>               
-            </div>
-          </div>
 
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="../TelaInicial/img/mine2.jpg" alt=""/>
-              </div>               
-            </div>
-          </div>
 
-        </div>
-      </div>
-  
-      <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-       
-    </section>
-  
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  
-    <script>
-  {/* {swiper} */}
-    </script>
-    </div>
-    );
-}
-
-export default EmBreve
+// export default EmBreve
