@@ -8,6 +8,7 @@ import Lançamentos from '../Lançamentos/Lançamentos';
 import EmBreve from '../Em Breve/EmBreve';
 import Plataforma from '../Plataforma/Plataforma';
 
+
 function App() {
   return (
     <div className="central">
