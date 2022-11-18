@@ -17,7 +17,7 @@ function Lançamentos(){
      
         <h2>Lançamentos</h2>
    
-        <Carousel className='Slider'>
+        <Carousel className='Slider' autoPlay={true} interval={2800} infiniteLoop={true} showArrows={true}>
                 <div>
                     <img src={Mine} />
                     <p className="legend">Mine</p>
@@ -31,6 +31,8 @@ function Lançamentos(){
                     <img src={balãozada} />
                     <p className="legend">Bloons </p>
                 </div>
+
+                
             </Carousel>
    
       </div>
