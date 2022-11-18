@@ -9,6 +9,7 @@ import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
+import './Lançamentos.css';
 
 
 function Lançamentos(){
@@ -17,19 +18,26 @@ function Lançamentos(){
      
         <h2>Lançamentos</h2>
    
-        <Carousel className='Slider' autoPlay={true} interval={2800} infiniteLoop={true} showArrows={true}>
-                <div>
+        <Carousel className='Slider' autoPlay={true} interval={2800} infiniteLoop={true} showArrows={true} centerMode={true}  showStatus={false} showThumbs={false} showIndicators={false} >
+                <div className='Row'>
                     <img src={Mine} />
-                    <p className="legend">Mine</p>
+                    <p >Mine</p>
+                   < img src={Celeste}/>
                 
                 </div>
-                <div>
+                <div  className='Row'>
                     <img src={Lol} />
-                    <p className="legend">Lol</p>
+                    <p >Lol</p>
                 </div>
-                <div>
+                <div className='Row'>
                     <img src={balãozada} />
-                    <p className="legend">Bloons </p>
+                    <p >Bloons </p>
+                </div>
+
+
+                <div  className='Row'>
+                    <img src={Celeste} />
+                    <p >Lol</p>
                 </div>
 
                 
