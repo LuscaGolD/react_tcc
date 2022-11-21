@@ -4,10 +4,19 @@ import Lol from '../Home/img/lol.png'
 import balãozada from '../Home/img/bloons.png'
 
 
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "./Lançamentos.css";
+
+// import required modules
+import { Pagination, Navigation } from "swiper";
 
 import './Lançamentos.css';
 
@@ -18,32 +27,34 @@ function Lançamentos(){
      
         <h2>Lançamentos</h2>
    
-        <Carousel className='Slider' autoPlay={true} interval={2800} infiniteLoop={true} showArrows={true} centerMode={true}  showStatus={false} showThumbs={false} showIndicators={false} >
-                <div className='Row'>
-                    <img src={Mine} />
-                    <p >Mine</p>
-                   < img src={Celeste}/>
-                
-                </div>
-                <div  className='Row'>
-                    <img src={Lol} />
-                    <p >Lol</p>
-                </div>
-                <div className='Row'>
-                    <img src={balãozada} />
-                    <p >Bloons </p>
-                </div>
-
-
-                <div  className='Row'>
-                    <img src={Celeste} />
-                    <p >Lol</p>
-                </div>
-
-                
-            </Carousel>
-   
+        <>
+      <Swiper
+        slidesPerView={5}
+        spaceBetween={25}
+        slidesPerGroup={3}
+        loop={true}
+        loopFillGroupWithBlank={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide><img src={Mine}/></SwiperSlide>
+        <SwiperSlide><img src={Lol}/></SwiperSlide>
+        <SwiperSlide><img src={Celeste}/></SwiperSlide>
+        <SwiperSlide><img src={balãozada}/></SwiperSlide>
+        <SwiperSlide><img src={Lol}/></SwiperSlide>
+        <SwiperSlide><img src={Mine}/></SwiperSlide>
+        <SwiperSlide><img src={Celeste}/></SwiperSlide>
+        <SwiperSlide><img src={Mine}/></SwiperSlide>
+        <SwiperSlide><img src={balãozada}/></SwiperSlide>
+      </Swiper>
+    </>
+ 
       </div>
+   
     );
 }
 

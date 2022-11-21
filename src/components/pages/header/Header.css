@@ -1,10 +1,12 @@
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-nav{
+.nav{
     width: 100%;
     background-color:  #171717;
     display: flex;
@@ -32,6 +34,7 @@ nav{
     border:solid 1px;
     border-radius:15px;
     width:600px;
+    
     
     
   }
@@ -67,7 +70,7 @@ input {
     height: 60px;
     border-radius: 20px;
     margin-left: 20px;
-    background-image: url('../img/logo.png');
+
     background-repeat: no-repeat;
     
 }
@@ -111,11 +114,11 @@ font-size: 20px;
     height: 50px;
     line-height: 50px;
     text-align: center;
-    float: left;
+    float: right;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
-    
+    position: relative;
  
 
 }
