@@ -1,6 +1,10 @@
 function Perfil () {
     return(
-        <h1>Perfil</h1>
+            <div>
+                <h1>Perfil</h1>
+                <p> pinto</p>
+            </div>
+        
     ); 
 }
 

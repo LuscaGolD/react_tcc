@@ -138,3 +138,18 @@ font-size: 20px;
 .menu ul li:hover>ul{
     display: block;
 }
+
+a{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: #ffffff !important; 
+    text-decoration: none !important;
+}
+
+
+h4{
+    color: #E789D8;
+}

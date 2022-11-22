@@ -1,5 +1,5 @@
 import './Header.css'
-
+import { Link } from 'react-router-dom'
 import seta from './imghead/seta.png'
 import logo from './imghead/logo.png'
 import heart from './imghead/heart.png'
@@ -12,9 +12,9 @@ return(
 
       <div className="container-logo">
     
-          <div  className='logo-imagem'> <img src={logo}/></div>
+          <div  className='logo-imagem'> <Link to='/'> <img src={logo}/> </Link> </div>
           <div className='logo-texto'> 
-           Game Facts
+           <Link to='/'> <h4>Game Facts</h4></Link>
           </div> 
     
       </div> 
@@ -38,7 +38,7 @@ return(
             <img src={seta} width="20px" height="20px" />
           
           <ul>
-            <li>Ação</li>
+            <li> <Link to="/teste">Ação </Link></li>
             <li>Aventura</li>
             <li>Sci-fi</li>
           </ul>

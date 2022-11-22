@@ -42,7 +42,7 @@ function MaisJogados(){
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={Mine}/></SwiperSlide>
+        <SwiperSlide><img src={Mine} alt="opa"/></SwiperSlide>
         <SwiperSlide><img src={Lol}/></SwiperSlide>
         <SwiperSlide><img src={Celeste}/></SwiperSlide>
         <SwiperSlide><img src={balãozada}/></SwiperSlide>

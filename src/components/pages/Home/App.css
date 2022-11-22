@@ -120,6 +120,7 @@ p {
 
 .categoria ul li img:hover {
   transform: scale(1.2);
+  transition: all ease 0.3s;
 }
  
 .cat{
@@ -142,6 +143,7 @@ p {
   background-color: #7209b7;
   color: #ffff;
   transform: scale(1.1);
+  transition: all ease 0.3s;
   
 }
 /* .topcat{
@@ -439,3 +441,12 @@ section .card .image img:hover{
 }
 
 
+.swiper-pagination-bullet {
+  width: 0 !important;
+}
+
+
+.swiper-slide img:hover {
+  transform: scale(1.2);
+  transition: all ease 0.5s;
+}
