@@ -14,10 +14,10 @@ import "./MaisJogados.css";
 import { Pagination, Navigation } from "swiper";
 
 
-import Mine from '../Home/img/mine.png'
-import Celeste from '../Home/img/celeste.png'
-import Lol from '../Home/img/lol.png'
-import balãozada from '../Home/img/bloons.png'
+import Mine from '../img/mine.png'
+import Celeste from '../img/celeste.png'
+import Lol from '../img/lol.png'
+import balãozada from '../img/bloons.png'
 
 
 function MaisJogados(){

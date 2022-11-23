@@ -1,9 +1,3 @@
-import Mine from '../Home/img/mine.png'
-import Celeste from '../Home/img/celeste.png'
-import Lol from '../Home/img/lol.png'
-import balãozada from '../Home/img/bloons.png'
-
-
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,19 +7,22 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./Lançamentos.css";
+import "./Plataforma.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-import './Lançamentos.css';
+import Mine from '../img/mine.png'
+import Celeste from '../img/celeste.png'
+import Lol from '../img/lol.png'
+import balãozada from '../img/bloons.png'
 
 
-function Lançamentos(){
+function Plataforma(){
     return(
-        <div class="novosjogos">
-     
-        <h2>Lançamentos</h2>
+        <div class="plataforma">
+
+        <h3>Plataformas</h3>
    
         <>
       <Swiper
@@ -58,4 +55,4 @@ function Lançamentos(){
     );
 }
 
-export default Lançamentos
+export default Plataforma
