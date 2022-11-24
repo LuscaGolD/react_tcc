@@ -1,0 +1,523 @@
+
+/*HEADER*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:  #171717;
+    
+}
+
+nav{
+    width: 100%;
+    background-color:  #171717;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+    
+}
+
+
+
+.iniciar{
+
+    background-color: grey;
+    color:white;
+    padding: 1px 20px;
+    border-radius: 10px;
+    margin-right: 40px;
+
+}
+
+.Busca{
+    background-color:#ffffff;
+    border:solid 1px;
+    border-radius:15px;
+    width:600px;
+    
+    
+  }
+
+input {
+    text-align: center;
+    margin-left: 200px;
+    
+}
+
+  
+  #txtBusca{
+    float: none;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:30px;
+    width:600px;
+    border-radius:15px;
+    align-items: center;
+    margin-left: 0px;
+    
+    
+  }
+
+ 
+
+ 
+.logo-imagem{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 20px;
+    /* background-image: url('../img/logo.png'); */
+    background-repeat: no-repeat;
+    
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo-texto{
+color:rgb(150, 38, 144);
+margin-left: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+.menu{
+    width: 500px;
+    background-color: #171717;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.menu ul{
+    list-style: none;
+    margin-top: 10px;
+    
+  
+}
+
+.menu ul li{
+    background-color: #171717;
+    color: #ffff;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+ 
+
+}
+
+
+
+.menu ul li:hover{
+    background: purple;
+}
+
+.menu ul ul{
+    display: none;
+    margin: 0px;
+
+}
+
+.menu ul li:hover>ul{
+    display: block;
+}
+
+
+
+.jogo{
+margin: 50px;
+padding: 4px;
+font-size: 20px;
+font-family: 'Roboto';
+width: 100%px;
+height: 1505px;
+top: 400px;
+background: #171717;
+border-radius: 20px;
+
+
+}    
+#gods{
+    
+    color:#FFF;
+    float: left;
+    margin-top: 24px;
+}
+
+#godss{
+    
+    color:#FFF;
+    float: left;
+    font-size:38px ;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+
+#rank{
+    /* margin-top: 355px; */
+    /* position: absolute; */
+    margin-left: 1380px;
+    font-size: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-decoration: underline;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.jogo h1{
+    margin-left: 150px;
+}
+
+.imagemcapa{
+
+flex: 20%
+
+}
+
+#imagemborda{
+   
+    /* position: absolute; */
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    image-rendering: optimizeQuality;  
+    margin-left: 150px;
+
+  
+}
+
+   #godof{
+    
+  
+    margin-right: 161px;
+    width: 1023px;
+    height: 257px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 40px;
+    background: #A0A2DA;
+    border-radius: 20px;
+    color: #171717;
+    text-align: justify;
+    justify-content: center;
+    float: right;
+
+   
+    
+}
+
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+#Falas{
+    /* position: absolute; */
+    width: 1062px;
+    height: 311px;
+    left: 549px;
+    top: 185px;
+    background: #A0A2DA;
+    border-radius: 22px;
+}
+
+.generos{
+
+    float: left;
+ 
+}
+
+.genero1{
+
+    width: 150px;
+    height: 45px;
+    font-size: 35px;
+    color: #FFF;
+    background: #A0A2DA;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px ;
+    margin-left: 150px ;
+    margin-right: 10px ;
+    float: left;
+   
+}
+
+.genero2{
+
+    width: 150px;
+    height: 45px;
+    font-size: 35px;
+    color: #FFF;
+    background: #A0A2DA;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px ;
+    margin-right: 10px ;
+    float: left;
+    
+    }
+    
+
+
+#aventura a{
+    width: 200px;
+    height: 42px;
+    left: 835px;
+    top: 500px;
+    margin-top: 15px;
+        }
+
+        
+.classificar{
+
+display: flex;
+align-items: center;
+margin-left:610px;
+
+}        
+
+#classificação{
+
+padding: 100px;
+font-size: 30px;
+font-family: 'Roboto';
+font-style: serif;
+font-weight: 500;
+line-height: 29px;
+color: #fff;
+display: flex;
+margin-left: -35rem;
+padding-right: 5px;
+
+}
+
+#drop{
+    align-items: center;
+    background-color: #171717;
+    color: #FFF;
+    display: flex;
+    margin-top: 35px;
+    border: 12px;
+    font-size: 25px;
+    display: flex;
+
+}
+.avaliacao{
+    display: flex;
+    margin-bottom: 10px;
+    
+   }
+  .star-icon{
+    list-style-type: none;
+    cursor: pointer;
+    color: #ffe500;
+    font-size: 40px;/* alterar o tamanho das estrelas */
+  }
+  .star-icon::before{
+    content: "\2605";
+  }
+  .star-icon.ativo ~ .star-icon::before{
+    content: "\2606";
+  }
+  .avaliacao:hover .star-icon::before{
+    content: "\2605";
+  }
+  .star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+  }
+
+.comentarios{
+  margin-top: 750px;
+  text-align: center;
+  border-radius: 30px;
+background: #A0A2DA;
+
+}
+#comentario{
+  background-color: black;
+  margin-top: 10px;
+  color: #FFF;
+}
+#trailers{
+    margin-top: 920px;
+}
+a {
+    color: #FFF;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    text-decoration: none;
+    
+    }
+    a:hover{
+        color:#FFF;
+        border-radius: 25px;
+    }
+    a:active{
+        color: #fff;
+        border-radius: 25px;
+    }
+    #data{
+        /* position: absolute; */
+        right: 200px;
+        font-family: 'Roboto';
+        font-style: serif;
+        font-size: 40px;        
+        margin-top: 550px;
+    
+        color: #FFF;
+
+    }
+ 
+
+  
+   #capa{
+        width: 2270px;
+        height: 660px;
+        right: 20px;
+        /* opacity: 60%;         */
+        
+   }
+  
+
+#botaoquiz{
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 20px;
+  width: 240px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #A0A2DA;
+  margin-left: 50rem;
+  margin-top: 10px;
+  
+}
+button:hover{
+  color: blue;
+  
+}
+button:active{
+  color: #171717;
+
+}
+#enviar{
+  font-family: 'Roboto';
+  color: black;
+  background-color: #A0A2DA;
+  width: 200px;
+  height: 50px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

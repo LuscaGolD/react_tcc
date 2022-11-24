@@ -1,5 +1,5 @@
 
-html,
+
 body {
   position: relative;
   height: 100%;
@@ -37,9 +37,31 @@ body {
 
 .swiper-slide img {
   display: block;
-
-  
+  cursor: pointer;
   object-fit: cover;
 }
 
 
+.swiper-button-prev {
+  color: #7209b7;
+  opacity: 100;
+}
+
+.swiper-button-next {
+  color: #7209b7;
+  opacity: 100;
+}
+
+
+.swiper-button-prev:hover {
+  color: white;
+  transform: scale(1.6);
+  transition: 0.9;
+}
+
+
+.swiper-button-next:hover {
+  color: white;
+  transform: scale(1.6);
+  transition: 0.9;
+}

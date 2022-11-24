@@ -1,36 +1,30 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import Carousel  from 'react-bootstrap/Carousel';
-  
-export default function App() {
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
+import tlfu2 from './Carrousselimg/tlou2.jpg'
+import valorant from './Carrousselimg/valoros.jpg'
+import irelia from './Carrousselimg/ireliaa.webp'
+
+ function Carrcentral() {
   return (
-    <div style={{ display: 'block'}}>
-      <h1>OIIII</h1>
-      <Carousel fade>
-        <Carousel.Item >
-          <img
-            className="d-block w-100"
-            src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
-            alt="Image One"
-/>
-        
-          <Carousel.Caption>
-            <h3>Label for first slide</h3>
-            <p>Sample Text for Image One</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-            alt="Image Two"
-          />
-          <Carousel.Caption>
-            <h3>Label for second slide</h3>
-            <p>Sample Text for Image Two</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+    <Carousel width={1200} dynamicHeight={false} infiniteLoop={true} autoPlay={true} showStatus={false} showIndicators={false} verticalSwipe={'natural'} autoFocus={true} showThumbs={false}>
+    <div>
+        <img src={tlfu2} />
+        <p className="legend">The last Of Us 2</p>
     </div>
-  );
+    <div>
+        <img src={valorant} />
+        <p className="legend">valorant</p>
+    </div>
+    <div>
+        <img src={irelia} />
+        <p className="legend">League Of Legends</p>
+    </div>
+</Carousel>
+);
 }
+
+
+export default Carrcentral

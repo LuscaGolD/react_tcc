@@ -447,6 +447,7 @@ section .card .image img:hover{
 
 
 .swiper-slide img:hover {
-  transform: scale(1.2);
+  transform: scale(1.12);
   transition: all ease 0.5s;
+  opacity: 100%;
 }
