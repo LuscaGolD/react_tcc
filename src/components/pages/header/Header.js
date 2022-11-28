@@ -38,7 +38,7 @@ return(
             <img src={seta} width="20px" height="20px" />
           
           <ul>
-            <li> <Link to="/teste">Ação </Link></li>
+            <li> <Link to="/jogos">Ação </Link></li>
             <li>Aventura</li>
             <li>Sci-fi</li>
           </ul>
