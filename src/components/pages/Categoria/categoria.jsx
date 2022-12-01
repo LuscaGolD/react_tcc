@@ -1,15 +1,15 @@
-import './Top.css'
+import './categoria.css'
 import Header from '../header/Header'
-function Top () {
+function categoria () {
     return(
             <div>
               <Header/>
               <div className='categoria'>
-                <h1>Top 100</h1>
+                <h1>Categoria:</h1>
                 </div>
             </div>
         
     ); 
 }
 
-export default Top;
+export default categoria;

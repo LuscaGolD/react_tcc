@@ -11,6 +11,8 @@ import Cadastro from './components/pages/TelaCadastro/Cadastro';
 import Quiz from './components/pages/Quiz/Quiz';
 import Login from './components/pages/Login/Login';
 import Top from './components/pages/Top/Top'
+import Plat from './components/pages/Plataforma';
+import categoria from './components/pages/Categoria';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +29,9 @@ root.render(
         <Route path='/Quiz' element={<Quiz/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Top' element={<Top/>}/>
+        <Route path='/Plataforma' element={<Plat/>}/>
+        <Route path='/categoria' element={<categoria/>}/>
+
 
 
       </Routes>

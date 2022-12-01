@@ -1,15 +1,14 @@
-import './Top.css'
+import './plataforma.css'
 import Header from '../header/Header'
-function Top () {
+function Plat () {
     return(
             <div>
               <Header/>
-              <div className='categoria'>
-                <h1>Top 100</h1>
+              <div className='categoriadois'>
+                <h1>Plataforma</h1>
                 </div>
             </div>
         
     ); 
 }
-
-export default Top;
+export default Plat;
