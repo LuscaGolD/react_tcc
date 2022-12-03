@@ -402,6 +402,11 @@ a {
         height: 660px;
         right: 20px;
         /* opacity: 60%;         */
+        -webkit-filter: blur(5px);
+    filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
         
    }
   
@@ -486,6 +491,7 @@ button:active{
   bottom: 8px;
   width: 100%;
   text-align: center;
+  
 }
 
 /* Number text (1/3 etc) */
