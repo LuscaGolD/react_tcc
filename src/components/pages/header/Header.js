@@ -39,7 +39,7 @@ return(
           
           <ul>
             <li> <Link to="/jogos">Ação </Link></li>
-            <li>Aventura</li>
+            <li> <Link to="/cadastro">Aventura</Link></li>
             <li>Sci-fi</li>
           </ul>
       

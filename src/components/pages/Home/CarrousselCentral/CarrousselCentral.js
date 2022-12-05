@@ -77,7 +77,7 @@ function Carrcentral() {
             captionPosition="bottom"
             automatic={true}
             dots={false}
-            pauseIconColor="white"
+            pauseIconColor="black"
             pauseIconSize="40px"
             slideBackgroundColor="darkgrey"
             slideImageFit="cover"
