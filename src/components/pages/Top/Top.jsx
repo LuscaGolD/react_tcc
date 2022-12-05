@@ -1,37 +1,43 @@
 import './Top.css'
 import Header from '../header/Header'
-import axios from "axios";
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react' 
+
+import apiigdb from '../../services/apiigdb';
 
 function Top () {
   
   const baseURL = "https://api.igdb.com/v4/games/";
-  const [post, setPost] = useState(null);
-  
-  // useEffect(() => {
-  //   axios.get(`${baseURL}/1`).then((response) => {
-  //     setPost(response.data);
-  //   });
-  // }, []);
+  const [jogos, setJogos] = useState([]); 
 
-  // function createPost() {
-  //   axios
-  //     .post(baseURL, {
-  //       title: "Hello World!",
-  //       body: "This is a new post."
-  //     })
-  //     .then((response) => {
-  //       setPost(response.data);
-  //     });
-  // }
-
-  // if (!post) return "No post!"
+  const Client_ID = '1blglpdcmg53tgv2egn4952dqkjhuz'; 
+  const Authorization = 'Bearer bhgx9itg33i2pqdq6op4r01gowjgip'; 
+  const parametros = 'fields name,rating; sort rating desc; where rating > 75; limit 100;';
   
+  async function listaTop() {
+    try {
+        const response = await apiigdb.post('v4/games', {
+          headers: {
+              Authorization, 
+              "Client-ID" : Client_ID
+            }
+        }); 
+        console.log('API');
+        console.log(response.data);
+        setJogos(response.data); 
+    } catch (error) {
+        alert(error);
+    }                
+  }
+
+  useEffect(() => {        
+      listaTop();        
+  }, []);
+    
 
   return(
             <div>
               <Header/>
-              <div className='categoria'>
+              <div className='categoriaTop'>
                 <h1>Top 100</h1>
 
                 {/* <h1>{post.image}</h1> */}

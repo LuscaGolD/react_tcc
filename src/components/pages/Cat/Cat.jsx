@@ -5,7 +5,7 @@ function Cat() {
     return(
             <div>
               <Header/>
-              <div className='categoria'>
+              <div className='categoriaCat'>
                 <h1>Categoria:</h1>
                 </div>
             </div>
