@@ -1,10 +1,11 @@
 body{
     background-color: black;
 }
-.categoria{
+.categoriaTop{
+    color: #fff;
     border-radius: 61px;
-    width: 1800px;
-    height: 2550px;
+    width: 1900px;
+    height: 3290px;
     margin-left:50px ;
     top: -10px;
     display: flex;
@@ -16,3 +17,168 @@ body{
     font-size: 50px;
     font-family: 'Roboto';
   }
+  .massefect{
+    margin-right: 200px;
+    width: 130px;
+    height: 189px;
+   
+  }
+  .textoa{
+
+    margin-top: -188px;
+    margin-right: 1200px;
+    font-size: 30px;
+    color: #FFF;
+  }
+  .paragrafo{
+    margin-top: -330px;
+    margin-left: 1250px;
+    font-size: 40px;
+  }
+  .numero{
+    margin-top: -30px;
+    margin-left: 1250px;
+    font-size: 50px;
+  }
+  .persona{
+    margin-top: 100px;
+    margin-right: 200px;
+    width: 130px;
+    height: 189px;
+  }
+ .textoas{
+    
+    font-size: 40px;
+ }
+.catlady{
+    margin-top: 100px;
+    margin-right: 200px;
+    width: 130px;
+    height: 189px;
+}
+.disco{
+    margin-top: 100px;
+    margin-right: 200px;
+    width: 130px;
+    height: 189px;
+}
+.steins{
+    margin-top: 100px;
+    margin-right: 200px;
+    width: 130px;
+    height: 189px;
+}
+.eldenring{
+    margin-top: 100px;
+    margin-right: 200px;
+    width: 130px;
+    height: 189px;
+}
+.golden{
+   
+        margin-top: 100px;
+        margin-right: 200px;
+        width: 130px;
+        height: 189px;
+    }
+.thewitcher{
+  
+        margin-top: 100px;
+        margin-right: 200px;
+        width: 130px;
+        height: 189px;
+}
+.godofwar{
+   
+        margin-top: 100px;
+        margin-right: 200px;
+        width: 130px;
+        height: 189px;
+  
+}
+.tlouremaster{
+  
+        margin-top: 100px;
+        margin-right: 200px;
+        width: 130px;
+        height: 189px;
+   
+}
+.textocat{
+    font-family: 'Roboto';
+    font-size: 35px;
+    
+}
+.textodisco{
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+.textosteins{
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+.textoelden{
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+.textopersona{
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+.textothewitcher{
+    font-family: 'Roboto';
+    font-size: 30px;
+    margin-top: 100px;
+}
+.textogod{
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+.textotlou{
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+.numeropersona{
+    margin-top: -200px;
+    margin-left: 1250px;
+    font-size: 50px;
+}
+.numerocat{
+    margin-top: -200px;
+    margin-left: 1250px;
+    font-size: 50px;
+}
+.numerodisco{
+    margin-top: -200px;
+    margin-left: 1250px;
+    font-size: 50px;
+}
+.numerosteins{
+    margin-top: -200px;
+    margin-left: 1250px;
+    font-size: 50px;
+}
+.numeroelden{
+    margin-top: -200px;
+    margin-left: 1250px;
+    font-size: 50px;
+}
+.numerogolden{
+    margin-top: -200px;
+    margin-left: 1250px;
+    font-size: 50px;
+}
+.numerowitcher{
+    margin-top: -200px;
+    margin-left: 1250px;
+    font-size: 50px;
+}
+.numerogod{
+    margin-top: -200px;
+    margin-left: 1250px;
+    font-size: 50px;
+}
+.numerotlou{
+    margin-top: -200px;
+    margin-left: 1250px;
+    font-size: 50px;}
