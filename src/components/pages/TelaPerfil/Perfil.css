@@ -156,19 +156,18 @@ font-size: 20px;
   }
 
   .bar{
-   background-color: #ACA8DD;
-   position: absolute;
-   width: 428px;
-   height: 250px;
+    background-color: #AAA;
+    position: absolute;
+    width: 428px;
+    height: 250px;
 
-   left: 75px;
-   top: 105px;
-   position: absolute;
-   direction: rtl;
-   border-radius: 36px;
-   text-align: center;
-   padding: 8px;
-   
+    left: 75px;
+    top: 105px;
+    position: absolute;
+    direction: rtl;
+    border-radius: 36px;
+    text-align: center;
+    padding: 8px; 
   }
 
   
