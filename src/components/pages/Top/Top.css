@@ -13,6 +13,13 @@ body{
     background-color: #171717;
     text-align: center;
     margin-top: 100px;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Roboto';
+    color: #FFF;
   }
+    .massefect{
+        width: 91px;
+        font-size: 20px;
+        margin-left: 50px;
+        
+    }

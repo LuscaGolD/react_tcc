@@ -29,18 +29,20 @@ function Top () {
     }                
   }
 
-  useEffect(() => {        
-      listaTop();        
-  }, []);
+  // useEffect(() => {        
+  //     listaTop();        
+  // }, []);
     
 
   return(
             <div>
               <Header/>
               <div className='categoriaTop'>
-                <h1>Top 100</h1>
-
-                {/* <h1>{post.image}</h1> */}
+                <h1>Top 10</h1>
+                <div className='massefect'>
+                  <h1>Mass Effect Trilogy</h1>
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_small/co4a7a.jpg"  alt="mass efect" />
+                </div>
                
               
               </div>
