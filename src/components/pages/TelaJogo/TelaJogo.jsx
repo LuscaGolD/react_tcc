@@ -6,7 +6,7 @@ import Godback from './img/imagemcapagod.jpg'
 
 
 import React, { useState } from 'react'
-import { Rating } from 'react-simple-star-rating'
+// import { Rating } from 'react-simple-star-rating'
 
 function TLJogo () {
 //     const [rating, setRating] = useState(0)

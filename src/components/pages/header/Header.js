@@ -1,5 +1,5 @@
 import './Header.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate  } from 'react-router-dom'
 import seta from './imghead/seta.png'
 import logo from './imghead/logo.png'
 import heart from './imghead/heart.png'
@@ -7,6 +7,7 @@ import lupa from './imghead/lupa.png'
 import usu from './imghead/usuario.png'
 
 function Header(){
+  let navigate = useNavigate();
 return(
     <nav className='nav'>
 
@@ -32,30 +33,32 @@ return(
                       
         <ul>
           
-          
-          <li>Categoria
+        <li>plataforma
+      
+      <img src={seta} width="20px" height="20px" />
+    
+    <ul>
+    <li> <Link to="/cadastro">Playstation</Link></li>
+    <li> <Link to="/cadastro">XBox</Link></li>
+    <li> <Link to="/cadastro">Nintendo</Link></li>
+    <li> <Link to="/cadastro">PC</Link></li>
+    </ul>
+
+    </li>
+
+          <li>jogos
       
             <img src={seta} width="20px" height="20px" />
           
           <ul>
-            <li> <Link to="/jogos">Ação </Link></li>
-            <li> <Link to="/cadastro">Aventura</Link></li>
-            <li>Sci-fi</li>
+            <li> <Link to="/jogos">Avaliados </Link></li>
+            <li> <Link to="/cadastro">Em Breve</Link></li>
+            <li> <Link to="/cadastro">Recentes</Link></li>
+            <li> <Link to="/cadastro">Top 100</Link></li>
           </ul>
       
         </li>
-        <li>plataforma
-      
-            <img src={seta} width="20px" height="20px" />
-          
-          <ul>
-            <li>PlayStation</li>
-            <li>Xbosta</li>
-            <li>Nintendo</li>
-          </ul>
-      
-          </li>
-      
+        
           
           
         </ul>
@@ -63,18 +66,22 @@ return(
       </div>
     
       <div className='favoritos'> 
-        <img src={heart} width="30px" height="30px"/>
+        <img src={heart} width="30px" height="30px" onClick={ ()=>navigate('/jogos')}/>
       </div>
     
       <div className='usuario'> 
-        <img src={usu} width="30px" height="30px" />
+        <img src={usu} width="30px" height="30px" onClick={ ()=>navigate('/jogos')} />
       </div>
     
-    
+    <div className='paulo'>
       <div className='iniciar'>
-        <a >Iniciar sessão</a>
+      <Link to="/jogos"><a >Cadastrar</a></Link> 
       </div>
-    
+
+      <div className='iniciar'>
+       <Link to="/jogos"><a >Login</a></Link> 
+      </div>
+    </div>
       
               
      

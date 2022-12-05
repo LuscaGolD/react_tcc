@@ -149,3 +149,21 @@ a:hover{
 h4{
     color: #E789D8;
 }
+
+
+.favoritos{
+    cursor: pointer;
+}
+
+.usuario{
+    cursor: pointer;
+
+}
+
+.iniciar{
+    cursor: pointer;
+}
+
+.paulo{
+    display: flex;
+}
