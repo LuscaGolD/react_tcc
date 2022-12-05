@@ -6,7 +6,7 @@ import CarrouselCentral from './CarrousselCentral/CarrousselCentral';
 import MaisJogados from './Mais Jogados/MaisJogados';
 import Lançamentos from './Lançamentos/Lançamentos';
 import EmBreve from './Em Breve/EmBreve';
-import Plataforma from './Plataforma/Plataforma';
+//import Plataforma from './Plataforma/Plataforma';
 
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
 
 
    
-   <Plataforma/>
+
 
 
 

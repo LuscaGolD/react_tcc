@@ -11,9 +11,8 @@ import Cadastro from './components/pages/TelaCadastro/Cadastro';
 import Quiz from './components/pages/Quiz/Quiz';
 import Login from './components/pages/Login/Login';
 import Top from './components/pages/Top/Top'
-import Plat from './components/pages/Plataforma';
-import categoria from './components/pages/Categoria';
-
+import Plat from './components/pages/Plataforma/plataforma';
+import GameCategoria from './components/pages/Cat/Cat';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -30,7 +29,7 @@ root.render(
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Top' element={<Top/>}/>
         <Route path='/Plataforma' element={<Plat/>}/>
-        <Route path='/categoria' element={<categoria/>}/>
+        <Route path='/categoria' element={<GameCategoria/>}/> 
 
 
 

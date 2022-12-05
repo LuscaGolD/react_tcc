@@ -1,6 +1,7 @@
 import './categoria.css'
 import Header from '../header/Header'
-function categoria () {
+
+function Cat() {
     return(
             <div>
               <Header/>
@@ -12,4 +13,5 @@ function categoria () {
     ); 
 }
 
-export default categoria;
+export default Cat;
+
