@@ -13,7 +13,7 @@ import { render } from "react-dom";
 
 
 
-function TLJogo () {
+function TLol () {
 
   const ratingChanged = (newRating) => {
     console.log(newRating);
@@ -28,13 +28,13 @@ function TLJogo () {
   <Header/>
   <div class="imagemcapa">
   
-    <img src = {Godback} id="capa"/>
+    <img src = "https://v5j9q4b5.rocketcdn.me/wp-content/uploads/2020/08/league-of-legends-como-o-jogo-surgiu-e-se-tornou-referencia-online-14.jpg" id="capa"/>
   
   </div>
   
     <div class="jogo">
       
-       <h1 className='h1s' id="gods">God Of War Ragnarok</h1>
+       <h1 className='h1s' id="gods">League Of Legends</h1>
   
        <h1 className='h1s' id="godss">Status:</h1>
        
@@ -47,20 +47,20 @@ function TLJogo () {
   
      
         
-         <h3 className='h3s' id="rank"> Rank:1#</h3>
+         <h3 className='h3s' id="rank"> Rank:15#</h3>
          
          
          
   
-      <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5s5v.png" id="imagemborda"/>
+      <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co49wj.png" id="imagemborda"/>
   
-         <p className='sinopse' id="godof">Kratos e Atreus devem viajar pelos Nove Reinos em busca de respostas enquanto as forças asgardianas se preparam para uma batalha profetizada que causará o fim do mundo. Nessa jornada, eles explorarão paisagens míticas impressionantes e enfrentarão inimigos aterradores: deuses nórdicos e monstros.</p>
+         <p className='sinopse' id="godof">League of Legends é um jogo online rápido e competitivo que combina a velocidade e a intensidade de um RTS com elementos de RPG. Duas equipes de campeões poderosos, cada um com um design e estilo de jogo únicos, lutam frente a frente em vários campos de batalha e modos de jogo. Com uma lista cada vez maior de campeões, atualizações frequentes e uma próspera cena de torneios, League of Legends oferece rejogabilidade infinita para jogadores de todos os níveis de habilidade.</p>
     
          <div class="generos">
   
-         <div class="genero1" href="#">Ação</div>
+         <div class="genero1" href="#">MOBA</div>
     
-         <div class="genero2" href="#">Aventura</div>
+     
 
          
 
@@ -98,4 +98,4 @@ function TLJogo () {
       ); 
   }
   
-  export default TLJogo;
+  export default TLol;

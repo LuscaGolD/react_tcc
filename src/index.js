@@ -11,7 +11,11 @@ import Cadastro from './components/pages/TelaCadastro/Cadastro';
 import Quiz from './components/pages/Quiz/Quiz';
 import Login from './components/pages/Login/Login';
 import Top from './components/pages/Top/Top'
-
+import Cat from './components/pages/Cat/Cat'
+import Rpg from './components/pages/Cat/rpg'
+import Simu from './components/pages/Cat/simu';
+import Ps from './components/pages/Plataforma/plataforma';
+import TLol from './components/pages/TelaJogo/Lol';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,7 +32,11 @@ root.render(
         <Route path='/Quiz' element={<Quiz/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Top' element={<Top/>}/>
-
+        <Route path='/Categoria/aventura' element={<Cat/>}/>
+        <Route path='/categoria/Rpg' element={<Rpg/>}/>
+        <Route path='/categoria/Simulacao' element={<Simu/>}/>
+        <Route path='/plataforma/playstation' element={<Ps/>}/>
+        <Route path='/jogos/league_of_legends' element={<TLol/>}/>
 
       </Routes>
     </Router>

@@ -1,53 +1,104 @@
 import './Top.css'
 import Header from '../header/Header'
 import React, { useState, useEffect } from 'react' 
+import { Pagination, Navigation } from "swiper";
 
-import apiigdb from '../../services/apiigdb';
+import Table from 'react-bootstrap/Table';
 
 function Top () {
   
-  const baseURL = "https://api.igdb.com/v4/games/";
-  const [jogos, setJogos] = useState([]); 
 
-  const Client_ID = '1blglpdcmg53tgv2egn4952dqkjhuz'; 
-  const Authorization = 'Bearer bhgx9itg33i2pqdq6op4r01gowjgip'; 
-  const parametros = 'fields name,rating; sort rating desc; where rating > 75; limit 100;';
   
-  async function listaTop() {
-    try {
-        const response = await apiigdb.post('v4/games', {
-          headers: {
-              Authorization, 
-              "Client-ID" : Client_ID
-            }
-        }); 
-        console.log('API');
-        console.log(response.data);
-        setJogos(response.data); 
-    } catch (error) {
-        alert(error);
-    }                
-  }
-
-  // useEffect(() => {        
-  //     listaTop();        
-  // }, []);
-    
 
   return(
             <div>
-              <Header/>
+                <Header/>
               <div className='categoriaTop'>
+            
                 <h1>Top 10</h1>
-                <div className='massefect'>
-                  <h1>Mass Effect Trilogy</h1>
-                <img src="https://images.igdb.com/igdb/image/upload/t_cover_small/co4a7a.jpg"  alt="mass efect" />
-                </div>
-               
-              
-              </div>
-            </div>
-        
+                 <Table striped bordered hover>
+      <thead className='table'>
+        <tr>
+          <th>#</th>
+          <th></th>
+          <th>Nome</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co5s5v.png' className='imageem'/></td>
+          <td>God of War Ragnarok</td>
+          <td>98/100</td>
+        </tr>
+
+        <tr>
+        <td>2</td>
+          <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.png'  className='imageem'/></td>
+          <td>Elden Ring</td>
+          <td>96/100</td>
+        </tr>
+
+        <tr>
+        <td>3</td>
+        <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.png'  className='imageem'/></td>
+          <td>The Witcher 3: Wild Hunt</td>
+          <td>95/100</td>
+        </tr>
+
+        <tr>
+        <td>4</td>
+        <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.png'  className='imageem' /></td>
+          <td>God of War</td>
+          <td>94/100</td>
+        </tr>
+
+        <tr>
+        <td>5</td>
+        <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co4ok8.png'  className='imageem'/></td>
+          <td>The Last of Us Remastered</td>
+          <td>94/100</td>
+        </tr>
+
+        <tr>
+        <td>6</td>
+        <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7f.png'  className='imageem'/></td>
+          <td>The Last of Us</td>
+          <td>93/100</td>
+        </tr>
+
+        <tr>
+        <td>7</td>
+        <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co5osy.png'  className='imageem'/></td>
+          <td>Super Metroid</td>
+          <td>93/100</td>
+        </tr>
+
+        <tr>
+        <td>8</td>
+        <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co2v5y.png'  className='imageem'/></td>
+          <td>Super Mario World</td>
+          <td>93/100</td>
+        </tr>
+
+        <tr>
+        <td>9</td>
+        <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.png'  className='imageem'/></td>
+          <td>Red Dead Redemption 2</td>
+          <td>93/100</td>
+        </tr>
+
+        <tr>
+        <td>10</td>
+        <td><img src='https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.png'  className='imageem'/></td>
+          <td>Hollow Knight</td>
+          <td>93/100</td>
+        </tr>
+      </tbody>
+    </Table>
+        </div>
+        </div>
     ); 
 }
 

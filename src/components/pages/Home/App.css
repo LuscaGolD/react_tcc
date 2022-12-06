@@ -59,7 +59,7 @@ p {
 .carousel-item{
   font-family: 'Roboto';
   font-size: 23px;
-  -webkit-mask-image: linear-gradient(to top, transparent 6%, black 40%);
+
 }
 
 
@@ -422,11 +422,6 @@ section .card .image img:hover{
 }
 
 
-
-.swiper-pagination{
-  /* position: flex; */
-  
-}
 
 
 

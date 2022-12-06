@@ -4,7 +4,7 @@ body{
 .categoriaCat{
     border-radius: 61px;
     width: 1800px;
-    height: 2550px;
+    height: 100%;
     margin-left:50px ;
     top: -10px;
     display: flex;
@@ -15,4 +15,25 @@ body{
     margin-top: 100px;
     font-size: 50px;
     font-family: 'Roboto';
+    color: #fff;
+
   }
+ 
+  .discover{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+ .hoves:hover{
+    color: #9147ff;
+ }
+
+
+ a{
+    padding: 10px;
+ }
+.imagem{
+    width: 130px;
+    height: 185px;
+}
+

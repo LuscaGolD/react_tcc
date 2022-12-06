@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import { Link, useNavigate  } from 'react-router-dom'
 import "./Plataforma.css";
 
 // import required modules
@@ -19,6 +19,7 @@ import balãozada from '../img/bloons.png'
 
 
 function Plataforma(){
+  let navigate = useNavigate();
     return(
         <div class="plataforma">
 
@@ -26,9 +27,9 @@ function Plataforma(){
    
         <>
       <Swiper
-        slidesPerView={5}
+        slidesPerView={4}
         spaceBetween={25}
-        slidesPerGroup={3}
+        slidesPerGroup={1}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
@@ -38,15 +39,12 @@ function Plataforma(){
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={Mine}/></SwiperSlide>
-        <SwiperSlide><img src={Lol}/></SwiperSlide>
-        <SwiperSlide><img src={Celeste}/></SwiperSlide>
-        <SwiperSlide><img src={balãozada}/></SwiperSlide>
-        <SwiperSlide><img src={Lol}/></SwiperSlide>
-        <SwiperSlide><img src={Mine}/></SwiperSlide>
-        <SwiperSlide><img src={Celeste}/></SwiperSlide>
-        <SwiperSlide><img src={Mine}/></SwiperSlide>
-        <SwiperSlide><img src={balãozada}/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_logo_med/pl6a.png" alt="xbox"  /></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_logo_med/plim.png" alt="pc"/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_logo_med/pl6e.png" alt="ps4" onClick={ ()=>navigate('/plataforma/playstation')}/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_logo_med/pl6b.png" alt="nintendo"/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_logo_med/plcv.png" alt="ps5" onClick={ ()=>navigate('/plataforma/playstation')}/></SwiperSlide>
+       
       </Swiper>
     </>
  

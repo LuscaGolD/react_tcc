@@ -3,95 +3,81 @@ import valorant from './Carrousselimg/valoros.jpg'
 import irelia from './Carrousselimg/ireliaa.webp'
 
 
-
-import { Carousel } from 'react-carousel-minimal';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 function Carrcentral() {
- const data = [
-    {
-      image: "https://cdn.ome.lt/g0IFuHg3YO2ofI4P2agfAcvVtsg=/970x360/smart/uploads/conteudo/fotos/painel-2x1m-valorant-decoracoes.jpg",
-      caption: `<div>
-                  Valorant
-                  <br/>
-                  Next line
-                </div>`
-    },
-    {
-      image: "https://cdn.britannica.com/s:800x450,c:crop/35/204435-138-2F2B745A/Time-lapse-hyper-lapse-Isle-Skye-Scotland.jpg",
-      caption: "Scotland"
-    },
-    {
-      image: "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
-      caption: "Darjeeling"
-    },
-    {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
-      caption: "San Francisco"
-    },
-    {
-      image: "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
-      caption: "Scotland"
-    },
-    {
-      image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
-      caption: "Darjeeling"
-    },
-    {
-      image: "https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx",
-      caption: "San Francisco"
-    },
-    {
-      image: "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
-      caption: "Scotland"
-    },
-    {
-      image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
-      caption: "Darjeeling"
-    }
-  ];
 
-  const captionStyle = {
-    fontSize: '2em',
-    fontWeight: 'bold',
-  }
-  const slideNumberStyle = {
-    fontSize: '20px',
-    fontWeight: 'bold',
-  }
-  return (
-    <div className="App">
-      <div style={{ textAlign: "center" }}>
-     
-        <div style={{
-          padding: "0 20px"
-        }}>
-          <Carousel
-            data={data}
-            time={2000}
-            width="850px"
-            height="500px"
-            captionStyle={captionStyle}
-            radius="10px"
-            slideNumber={false}
-            slideNumberStyle={slideNumberStyle}
-            captionPosition="bottom"
-            automatic={true}
-            dots={false}
-            pauseIconColor="black"
-            pauseIconSize="40px"
-            slideBackgroundColor="darkgrey"
-            slideImageFit="cover"
-            thumbnails={false}
-            thumbnailWidth="100px"
-            style={{
-              textAlign: "center",
-              maxWidth: "850px",
-              maxHeight: "500px",
-              margin: "40px auto",
-            }}
-          />
-        </div>
-      </div>
+
+
+  return(
+     <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+  <Carousel showIndicators={false} showThumbs showStatus={false} width={1200} thumbWidth={90} showArrows={false} autoPlay={true} infiniteLoop={true} useKeyboardArrows={true}>
+                <div>
+                    <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.625/c_scale,w_400/ncom/pt_BR/games/switch/o/overwatch-2-switch/hero" />
+                    <p className="legend">overwatch 2</p>
+                </div>
+                <div>
+                    <img src="https://cdn2.unrealengine.com/Fortnite%2Fchapter2%2FPT-BR_11BR_KeyArt_Social-1920x1080-246e2543f48442b02b3d49af14cce17f8432e920.jpg" />
+                    <p className="legend">fortnite Capitulo 2</p>
+                </div>
+                <div>
+                    <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_LeagueofLegends_RiotGames_S1_2560x1440-ee500721c06da3ec1e5535a88588c77f" />
+                    <p className="legend">League Of Legends</p>
+                </div>
+
+                <div>
+                    <img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/meta-images/reveal/mw2-reveal-meta-share.jpg" />
+                    <p className="legend">COD MW2</p>
+                </div>
+
+                <div>
+                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg" />
+                    <p className="legend">God Of War Ragnarok</p>
+                </div>
+
+                <div>
+                    <img src="https://cdn2.unrealengine.com/ea-sports-fifa-23-is-coming-to-the-epic-games-store-1920x1080-398e19351a82.jpg" />
+                    <p className="legend">FIFA 2023</p>
+                </div>
+
+
+                <div>
+                    <img src="https://cdn1.epicgames.com/offer/9acb0d22292b48acaeb0eb38b391df93/EGS_NeedforSpeedUnbound_CriterionGames_S1_2560x1440-d74bb63a1f07cbb6376d28409ed8cca4" />
+                    <p className="legend">NFS UNBOUND</p>
+                </div>
+
+
+                <div>
+                    <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/2618/itbSm3suGHSSHIpmu9CCPBRy.jpg" />
+                    <p className="legend">THE LAST OF US PART 2</p>
+                </div>
+
+                
+                <div>
+                    <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/pt_BR/games/switch/p/pokemon-sword-and-pokemon-shield-double-pack-digital-version-switch/hero" />
+                    <p className="legend">POKÉMON SWORD AND SHIELD</p>
+                </div>
+
+                <div>
+                    <img src="https://cdn1.epicgames.com/offer/e97659b501af4e3981d5430dad170911/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e" />
+                    <p className="legend">HOGWARDS LEGACY</p>
+                </div>
+
+
+                <div>
+                    <img src="https://i.ytimg.com/vi/FSkks9MMLZg/maxresdefault.jpg" />
+                    <p className="legend">SUPER MARIO ODSSEY</p>
+                </div>
+
+                <div>
+                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0311/cp7G7TILGKzAzLGb1MMn9hyt.jpg" />
+                    <p className="legend">RESIDENT EVIL 7</p>
+                </div>
+            </Carousel>
+
     </div>
   );
 }

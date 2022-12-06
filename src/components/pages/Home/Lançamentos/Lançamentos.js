@@ -29,9 +29,9 @@ function Lançamentos(){
    
         <>
       <Swiper
-        slidesPerView={5}
+        slidesPerView={6}
         spaceBetween={25}
-        slidesPerGroup={3}
+        slidesPerGroup={2}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
@@ -41,15 +41,16 @@ function Lançamentos(){
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={Mine}/></SwiperSlide>
-        <SwiperSlide><img src={Lol}/></SwiperSlide>
-        <SwiperSlide><img src={Celeste}/></SwiperSlide>
-        <SwiperSlide><img src={balãozada}/></SwiperSlide>
-        <SwiperSlide><img src={Lol}/></SwiperSlide>
-        <SwiperSlide><img src={Mine}/></SwiperSlide>
-        <SwiperSlide><img src={Celeste}/></SwiperSlide>
-        <SwiperSlide><img src={Mine}/></SwiperSlide>
-        <SwiperSlide><img src={balãozada}/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5ufr.png" alt='valorant22'/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5v1u.png" alt='le aventure'/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5u05.png" alt='project playtime'/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2e66.png" alt='hello2'/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5tja.png" alt="five"/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5uhe.png" alt='two point'/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5v0j.png" alt='farm simulator'/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5tfg.png" alt='falsepine'/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5u96.png" alt="tales"/></SwiperSlide>
+        <SwiperSlide><img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4w51.png" alt="Yi XIng"/></SwiperSlide>
       </Swiper>
     </>
  

@@ -13,7 +13,7 @@ import { render } from "react-dom";
 
 
 
-function TLJogo () {
+function TFort() {
 
   const ratingChanged = (newRating) => {
     console.log(newRating);
@@ -28,13 +28,13 @@ function TLJogo () {
   <Header/>
   <div class="imagemcapa">
   
-    <img src = {Godback} id="capa"/>
+    <img src = "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/pt_BR/games/switch/f/fortnite-switch/hero" id="capa"/>
   
   </div>
   
     <div class="jogo">
       
-       <h1 className='h1s' id="gods">God Of War Ragnarok</h1>
+       <h1 className='h1s' id="gods">Fortnite: Chapter 2</h1>
   
        <h1 className='h1s' id="godss">Status:</h1>
        
@@ -47,20 +47,20 @@ function TLJogo () {
   
      
         
-         <h3 className='h3s' id="rank"> Rank:1#</h3>
+         <h3 className='h3s' id="rank"> Rank:11#</h3>
          
          
          
   
-      <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5s5v.png" id="imagemborda"/>
+      <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4s.png" id="imagemborda"/>
   
-         <p className='sinopse' id="godof">Kratos e Atreus devem viajar pelos Nove Reinos em busca de respostas enquanto as forças asgardianas se preparam para uma batalha profetizada que causará o fim do mundo. Nessa jornada, eles explorarão paisagens míticas impressionantes e enfrentarão inimigos aterradores: deuses nórdicos e monstros.</p>
+         <p className='sinopse' id="godof">Mergulhe em um novo mundo. Escolha seu local de pouso e explore uma ilha totalmente nova com 13 novos locais. Nadar, pescar e muito mais! Apoie seu esquadrão usando a bazuca de bandagem e confira os novos esconderijos e explosivos! O combate também é atualizado com menos grind e mais diversão.</p>
     
          <div class="generos">
   
-         <div class="genero1" href="#">Ação</div>
+         <div class="genero1" href="#">MOBA</div>
     
-         <div class="genero2" href="#">Aventura</div>
+     
 
          
 
@@ -98,4 +98,4 @@ function TLJogo () {
       ); 
   }
   
-  export default TLJogo;
+  export default TFort;

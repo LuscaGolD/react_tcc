@@ -33,12 +33,12 @@ return(
                       
         <ul>
           
-        <li>plataforma
+        <li>Exclusivos
       
       <img src={seta} width="20px" height="20px" />
     
     <ul>
-    <li> <Link to="/cadastro">Playstation</Link></li>
+    <li> <Link to="/plataforma/playstation">Playstation</Link></li>
     <li> <Link to="/cadastro">XBox</Link></li>
     <li> <Link to="/cadastro">Nintendo</Link></li>
     <li> <Link to="/cadastro">PC</Link></li>
@@ -52,9 +52,9 @@ return(
           
           <ul>
             <li> <Link to="/jogos">Avaliados </Link></li>
-            <li> <Link to="/cadastro">Em Breve</Link></li>
-            <li> <Link to="/cadastro">Recentes</Link></li>
-            <li> <Link to="/cadastro">Top 100</Link></li>
+            {/* <li> <Link to="/cadastro">Em Breve</Link></li> */}
+            {/* <li> <Link to="/cadastro">Recentes</Link></li> */}
+            <li> <Link to="Top">Top 100</Link></li>
           </ul>
       
         </li>

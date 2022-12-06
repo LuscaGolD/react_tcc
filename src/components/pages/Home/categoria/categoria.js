@@ -1,4 +1,8 @@
+import { Link, useNavigate  } from 'react-router-dom'
+
+
 function Categoria (){
+        let navigate = useNavigate();
 return(
         <div>
 <div className="topcat">
@@ -7,11 +11,10 @@ return(
 
 
 
-<button className='cat'>Ação</button>
-<button className='cat'>Aventura</button>
-<button className='cat'>Simulação</button>
-<button className='cat'>estrategia</button>
-<button className='cat'>RPG</button>
+<button className='cat' onClick={ ()=>navigate('/categoria/aventura')} >Aventura</button>
+<button className='cat' onClick={ ()=>navigate('/categoria/simulacao')}>Simulação</button>
+<button className='cat' onClick={ ()=>navigate('/categoria/Rpg')}>RPG</button>
+<button className='cat'>Outros...</button>
 
 
 </div>
